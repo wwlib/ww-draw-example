@@ -1,0 +1,24 @@
+{
+  "name": "test-ww-draw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run clean && webpack || echo not ok",
+    "clean": "rimraf lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Rapo <andrew@worthwhilegames.org> (http://worthwhilegames.org)",
+  "license": "ISC",
+  "dependencies": {
+    "pixi.js": "^4.7.0",
+    "ww-draw": "^0.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^9.4.6",
+    "@types/pixi.js": "^4.7.1",
+    "awesome-typescript-loader": "^3.5.0",
+    "source-map-loader": "^0.2.3",
+    "typescript": "^2.7.2"
+  }
+}
