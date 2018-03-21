@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm run clean && webpack || echo not ok",
+    "build": "npm run clean && webpack --mode development || echo not ok",
     "clean": "rimraf lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
