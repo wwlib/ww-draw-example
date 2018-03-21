@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm run clean && webpack --mode development || echo not ok",
+    "build": "webpack --mode development || echo not ok",
+    "build:playback": "webpack --config webpack.config.playback.js --mode development || echo not ok",
     "clean": "rimraf lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -10,4 +10,8 @@ npm install -g webpack
 npm install
 npm run build
 electron .
+
+
+npm run build:playback
+electron ./index-playback.js
 ```
